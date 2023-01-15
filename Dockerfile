@@ -6,8 +6,8 @@ FROM openresty/openresty:alpine
 
 WORKDIR /usr/local/openresty/nginx
 
-COPY resty_modules ./rest_modules
-COPY conf ./conf
-COPY lua ./lua
+COPY resty_modules ./
+COPY conf ./
+COPY lua ./
 
 EXPOSE 10001
